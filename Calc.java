@@ -1,4 +1,3 @@
-import java.io.InputStream;
 import java.util.Scanner;
 
 public class Calc {
@@ -170,6 +169,11 @@ public class Calc {
             System.out.println("Input error!");
             continue;
           }
+        else
+        {
+          System.out.println("Input error!");
+          continue;
+        }
 
       if ((a != 10) & (data.length() == 4))
         if (data.charAt(i) == '0')
@@ -180,6 +184,11 @@ public class Calc {
             System.out.println("Input error!");
             continue;
           }
+        else
+        {
+          System.out.println("Input error!");
+          continue;
+        }
 
       switch (op)
       {
@@ -206,4 +215,3 @@ public class Calc {
     } while (data.compareTo("0") != 0);
   }
 }
-
